@@ -697,7 +697,7 @@
 
         <div class="progress-summary">
           <div class="progress-summary-top">
-            <span>Progreso total</span>
+            <span>Weapon Total Progress</span>
             <span class="progress-summary-value" id="progressSummaryValue">0 / 0</span>
           </div>
           <div class="progress-track">
@@ -705,8 +705,8 @@
           </div>
         </div>
 
-        <button class="admin-btn" id="adminBtn">🔒 Modo admin</button>
-        <button class="reload-btn" id="reloadBtn">Cargar otro JSON</button>
+        <button class="admin-btn" id="adminBtn">TerryGojan</button>
+        <button class="reload-btn" id="reloadBtn">Load JSON</button>
       </div>
     </div>
 
@@ -1138,11 +1138,11 @@ let currentData = null;
 
   function buildLegend() {
     const items = [
-      ["Azul",RARITY_COLORS.sky],
-      ["Dorado",RARITY_COLORS.yellow],
-      ["Verde",RARITY_COLORS.lime],
-      ["Violeta",RARITY_COLORS.purple_dark],
-      ["Azul oscuro",RARITY_COLORS.blue_dark]
+      ["Pearl",RARITY_COLORS.sky],
+      ["Legendary",RARITY_COLORS.yellow],
+      ["Uncommon",RARITY_COLORS.lime],
+      ["Epic",RARITY_COLORS.purple_dark],
+      ["Rare",RARITY_COLORS.blue_dark]
     ];
 
     legendEl.innerHTML = items.map(([label,color]) =>
