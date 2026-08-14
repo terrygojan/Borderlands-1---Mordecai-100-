@@ -1,5 +1,7 @@
 {
-  "weapons": {},
+  "weapons": {
+    "67997df0ecc6ffea54096fc3": true
+  },
   "info": {
     "missions": 0,
     "hybrid-weapon": false,
