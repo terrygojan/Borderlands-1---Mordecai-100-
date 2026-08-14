@@ -7,7 +7,7 @@
   },
   "info": {
     "missions": 0,
-    "hybrid-weapon": false,
+    "hybrid-weapon": true,
     "backpack-sdu": 0,
     "steam-achievements": 0,
     "weapon-proficiencies": 0
